@@ -1,0 +1,9 @@
+node_modules/
+out/
+afdko_env/
+tools/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.log
