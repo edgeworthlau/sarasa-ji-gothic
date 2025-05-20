@@ -12,6 +12,8 @@ Sarasa Gothic 是一个近乎完美的解决方法，除了大写字母 `G` ！S
 
 是的，Sarasa Ji Gothic 仅在大写字母 `G` 的字形上有所不同。为了得到一个更接近与 San Francisco 的视觉体验，我重新构建了 Sarasa Gothic ，并根据新字体的特点“更加圆润的大写字母 `G`”，取谐音将其命名为**更纱圆纪黑体**，英文命名为 Sarasa Ji Gothic，并依据原协议进行开源。
 
+![intro](intro.png)
+
 如果你在网页开发过程中使用到了本字体，请不要吝啬您的慷慨，为本项目点亮 **star** ，并也请一并为原项目（[Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic/)）点亮 **star** ，不胜感激！
 
 ## 如何选择版本？
