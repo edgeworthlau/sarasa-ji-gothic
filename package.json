@@ -8,7 +8,8 @@
 		"build": "verda -f verdafile.mjs",
 		"clean": "verda -f verdafile.mjs clean",
 		"full-clean": "verda -f verdafile.mjs full-clean",
-		"install": "node check-env.mjs"
+		"install": "node check-env.mjs",
+		"font-split": "node font-split.js"
 	},
 	"dependencies": {
 		"@chlorophytum/cli": "^0.50.0",
@@ -24,6 +25,7 @@
 		"which": "^4.0.0"
 	},
 	"devDependencies": {
+		"cn-font-split": "^7.2.9",
 		"eslint": "^9.8.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-prettier": "^5.2.1",

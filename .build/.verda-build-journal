@@ -1,0 +1,5996 @@
+{
+	"journalVersion": 2,
+	"entries": {
+		"Meta::SelfTracking::Meta::Self-Tracking": {
+			"id": "Meta::SelfTracking::Meta::Self-Tracking",
+			"volatile": false,
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::/Users/edgeworthlau/Documents/Site/Sarasa-Ji-Gothic/verdafile.mjs",
+						"args": [
+							"/Users/edgeworthlau/Documents/Site/Sarasa-Ji-Gothic/verdafile.mjs"
+						]
+					}
+				]
+			],
+			"revision": 2
+		},
+		"Builtin::FileUpdated::/Users/edgeworthlau/Documents/Site/Sarasa-Ji-Gothic/verdafile.mjs": {
+			"id": "Builtin::FileUpdated::/Users/edgeworthlau/Documents/Site/Sarasa-Ji-Gothic/verdafile.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "/Users/edgeworthlau/Documents/Site/Sarasa-Ji-Gothic/verdafile.mjs",
+				"prefix": "",
+				"root": "/",
+				"dir": "Users/edgeworthlau/Documents/Site/Sarasa-Ji-Gothic",
+				"base": "verdafile.mjs",
+				"ext": ".mjs",
+				"name": "verdafile",
+				"present": true,
+				"updated": "2025-05-20T09:56:36.147Z",
+				"hash": "4426be243d9cba9f2b69ab66ed42eca5b777502e"
+			},
+			"dependencies": [],
+			"revision": 2
+		},
+		"Builtin::Oracle::dep::config": {
+			"id": "Builtin::Oracle::dep::config",
+			"volatile": false,
+			"result": {
+				"buildOptions": {},
+				"familyOrder": [
+					"Gothic",
+					"Ui"
+				],
+				"families": {
+					"Gothic": {
+						"isGothic": true,
+						"latinGroup": "Inter",
+						"naming": {
+							"en_US": "Sarasa Ji Gothic",
+							"zh_CN": "更纱圆纪黑体",
+							"zh_TW": "更紗圓紀黑體",
+							"zh_HK": "更紗圓紀黑體",
+							"ja_JP": "更紗円紀ゴシック",
+							"ko_KR": "사라사 원기 고딕"
+						}
+					},
+					"Ui": {
+						"isPWID": true,
+						"isTNUM": true,
+						"latinGroup": "Inter",
+						"naming": {
+							"en_US": "Sarasa Ji UI",
+							"zh_CN": "更纱圆纪黑体 UI",
+							"zh_TW": "更紗圓紀黑體 UI",
+							"zh_HK": "更紗圓紀黑體 UI",
+							"ja_JP": "更紗円紀ゴシック UI",
+							"ko_KR": "사라사 원기 고딕 UI"
+						}
+					}
+				},
+				"styleOrder": [
+					"ExtraLight",
+					"ExtraLightItalic",
+					"Light",
+					"LightItalic",
+					"Regular",
+					"Italic",
+					"SemiBold",
+					"SemiBoldItalic",
+					"Bold",
+					"BoldItalic"
+				],
+				"latinGroups": {
+					"Inter": {
+						"isCff": false,
+						"bakeFeatures": [
+							{
+								"tag": "ss03"
+							}
+						],
+						"dropFeatures": [
+							"cv01",
+							"cv02",
+							"cv03",
+							"cv04",
+							"cv05",
+							"cv06",
+							"cv07",
+							"cv08",
+							"cv09",
+							"cv10",
+							"cv11",
+							"cv12",
+							"cv13",
+							"ss01",
+							"ss02",
+							"ss03",
+							"ss04",
+							"ss05",
+							"ss06",
+							"ss07",
+							"ss08"
+						]
+					}
+				},
+				"styles": {
+					"ExtraLight": {
+						"name": "ExtraLight"
+					},
+					"ExtraLightItalic": {
+						"name": "ExtraLight Italic",
+						"uprightStyleMap": "ExtraLight"
+					},
+					"Light": {
+						"name": "Light"
+					},
+					"LightItalic": {
+						"name": "Light Italic",
+						"uprightStyleMap": "Light"
+					},
+					"Regular": {
+						"name": "Regular"
+					},
+					"Italic": {
+						"name": "Italic",
+						"uprightStyleMap": "Regular"
+					},
+					"SemiBold": {
+						"name": "SemiBold"
+					},
+					"SemiBoldItalic": {
+						"name": "SemiBold Italic",
+						"uprightStyleMap": "SemiBold"
+					},
+					"Bold": {
+						"name": "Bold"
+					},
+					"BoldItalic": {
+						"name": "Bold Italic",
+						"uprightStyleMap": "Bold"
+					}
+				},
+				"subfamilyOrder": [
+					"SC",
+					"TC",
+					"HC",
+					"J",
+					"K",
+					"CL"
+				],
+				"os2encodings": {
+					"J": {
+						"gbk": false,
+						"big5": false,
+						"jis": true,
+						"korean": false
+					},
+					"SC": {
+						"gbk": true,
+						"big5": false,
+						"jis": false,
+						"korean": false
+					},
+					"TC": {
+						"gbk": false,
+						"big5": true,
+						"jis": false,
+						"korean": false
+					},
+					"HC": {
+						"gbk": false,
+						"big5": true,
+						"jis": false,
+						"korean": false
+					},
+					"CL": {
+						"gbk": false,
+						"big5": true,
+						"jis": false,
+						"korean": false
+					},
+					"K": {
+						"gbk": false,
+						"big5": false,
+						"jis": false,
+						"korean": true
+					}
+				},
+				"nameTupleSelector": {
+					"J": [
+						"en_US",
+						"ja_JP"
+					],
+					"K": [
+						"en_US",
+						"ko_KR"
+					],
+					"SC": [
+						"en_US",
+						"zh_CN"
+					],
+					"TC": [
+						"en_US",
+						"zh_TW"
+					],
+					"HC": [
+						"en_US",
+						"zh_HK"
+					],
+					"CL": [
+						"en_US",
+						"zh_TW"
+					]
+				},
+				"copyright": "Copyright (c) 2025, Edgeworth Lau (edgeworthlau@outlook.com). Portions Copyright (c) 2015-2025 Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright (c) 2016 The Inter Project Authors. Portions Copyright (c) 2014-2021 Adobe Systems Incorporated (http://www.adobe.com/). Portions Copyright (c) 2012 Google Inc.",
+				"shsSourceMap": {
+					"defaultRegion": "SourceHanSans",
+					"region": {
+						"J": "SourceHanSans",
+						"K": "SourceHanSansK",
+						"CL": "SourceHanSansK",
+						"SC": "SourceHanSansSC",
+						"TC": "SourceHanSansTC",
+						"HC": "SourceHanSansHC",
+						"J-HW": "SourceHanSansHW",
+						"K-HW": "SourceHanSansHWK",
+						"CL-HW": "SourceHanSansHWK",
+						"SC-HW": "SourceHanSansHWSC",
+						"TC-HW": "SourceHanSansHWTC",
+						"HC-HW": "SourceHanSansHWHC"
+					},
+					"styleMap": {
+						"SemiBold": "Medium"
+					},
+					"classicalRegion": "CL",
+					"classicalOverridePrefix": "ShangguSansTC",
+					"classicalOverrideSuffixMap": {
+						"ExtraLight": "ExtraLight-subset",
+						"Light": "Light-subset",
+						"Regular": "Regular-subset",
+						"SemiBold": "Medium-subset",
+						"Bold": "Bold-subset"
+					}
+				}
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::Task::dep::scripts": {
+			"id": "Builtin::Task::dep::scripts",
+			"volatile": false,
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::oracles::dependencies",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::dep::scripts-dir-structure",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::make/hangul/build.mjs",
+						"args": [
+							"make/hangul/build.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/alias-feature.mjs",
+						"args": [
+							"make/helpers/alias-feature.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/bake-feature.mjs",
+						"args": [
+							"make/helpers/bake-feature.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/drop.mjs",
+						"args": [
+							"make/helpers/drop.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/feature-simplify.mjs",
+						"args": [
+							"make/helpers/feature-simplify.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/font-io.mjs",
+						"args": [
+							"make/helpers/font-io.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/geometry.mjs",
+						"args": [
+							"make/helpers/geometry.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/glyph-finder.mjs",
+						"args": [
+							"make/helpers/glyph-finder.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/sort-glyphs.mjs",
+						"args": [
+							"make/helpers/sort-glyphs.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/helpers/unicode-kind.mjs",
+						"args": [
+							"make/helpers/unicode-kind.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/kanji/build.mjs",
+						"args": [
+							"make/kanji/build.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/non-kanji/build.mjs",
+						"args": [
+							"make/non-kanji/build.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/pass1/index.mjs",
+						"args": [
+							"make/pass1/index.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/pass1/metadata.mjs",
+						"args": [
+							"make/pass1/metadata.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/pass2/index.mjs",
+						"args": [
+							"make/pass2/index.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/punct/as.mjs",
+						"args": [
+							"make/punct/as.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/punct/bake-locl.mjs",
+						"args": [
+							"make/punct/bake-locl.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/punct/build-continuous-em-dash.mjs",
+						"args": [
+							"make/punct/build-continuous-em-dash.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/punct/fe-misc.mjs",
+						"args": [
+							"make/punct/fe-misc.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/punct/lgc-helpers.mjs",
+						"args": [
+							"make/punct/lgc-helpers.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/punct/sanitize-symbols.mjs",
+						"args": [
+							"make/punct/sanitize-symbols.mjs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::make/punct/ws.mjs",
+						"args": [
+							"make/punct/ws.mjs"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::DirExists::out/TTF-Unhinted": {
+			"id": "Builtin::DirExists::out/TTF-Unhinted",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "out/TTF-Unhinted",
+				"prefix": "",
+				"root": "",
+				"dir": "out",
+				"base": "TTF-Unhinted",
+				"ext": "",
+				"name": "TTF-Unhinted",
+				"present": true,
+				"updated": "2025-05-20T09:54:08.140Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 0
+		},
+		"Builtin::DirExists::out/TTF": {
+			"id": "Builtin::DirExists::out/TTF",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "out/TTF",
+				"prefix": "",
+				"root": "",
+				"dir": "out",
+				"base": "TTF",
+				"ext": "",
+				"name": "TTF",
+				"present": true,
+				"updated": "2025-05-20T09:53:57.873Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 0
+		},
+		"Builtin::Oracle::oracles::dependencies": {
+			"id": "Builtin::Oracle::oracles::dependencies",
+			"volatile": false,
+			"result": {
+				"requirements": {
+					"@chlorophytum/cli": "^0.50.0",
+					"@chlorophytum/font-format-ttf": "^0.50.0",
+					"@chlorophytum/hint-store-provider-file": "^0.50.0",
+					"@chlorophytum/hm-combine": "^0.50.0",
+					"@chlorophytum/hm-ideograph": "^0.50.0",
+					"@chlorophytum/hm-select-glyphs": "^0.50.0",
+					"fs-extra": "^11.2.0",
+					"ot-builder": "^1.7.4",
+					"otb-ttc-bundle": "^1.7.4",
+					"verda": "^1.12.2",
+					"which": "^4.0.0"
+				},
+				"actual": {
+					"@chlorophytum/cli": "0.50.0",
+					"@chlorophytum/font-format-ttf": "0.50.0",
+					"@chlorophytum/hint-store-provider-file": "0.50.0",
+					"@chlorophytum/hm-combine": "0.50.0",
+					"@chlorophytum/hm-ideograph": "0.50.1",
+					"@chlorophytum/hm-select-glyphs": "0.50.0",
+					"fs-extra": "11.3.0",
+					"ot-builder": "1.7.6",
+					"otb-ttc-bundle": "1.7.6",
+					"verda": "1.12.3",
+					"which": "4.0.0"
+				}
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::Oracle::dep::scripts-dir-structure": {
+			"id": "Builtin::Oracle::dep::scripts-dir-structure",
+			"volatile": false,
+			"result": [
+				"make/hangul/build.mjs",
+				"make/helpers/alias-feature.mjs",
+				"make/helpers/bake-feature.mjs",
+				"make/helpers/drop.mjs",
+				"make/helpers/feature-simplify.mjs",
+				"make/helpers/font-io.mjs",
+				"make/helpers/geometry.mjs",
+				"make/helpers/glyph-finder.mjs",
+				"make/helpers/sort-glyphs.mjs",
+				"make/helpers/unicode-kind.mjs",
+				"make/kanji/build.mjs",
+				"make/non-kanji/build.mjs",
+				"make/pass1/index.mjs",
+				"make/pass1/metadata.mjs",
+				"make/pass2/index.mjs",
+				"make/punct/as.mjs",
+				"make/punct/bake-locl.mjs",
+				"make/punct/build-continuous-em-dash.mjs",
+				"make/punct/fe-misc.mjs",
+				"make/punct/lgc-helpers.mjs",
+				"make/punct/sanitize-symbols.mjs",
+				"make/punct/ws.mjs"
+			],
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirStructure::make": {
+			"id": "Builtin::DirStructure::make",
+			"volatile": true,
+			"result": {
+				"hangul/": {
+					"build.mjs": "make/hangul/build.mjs"
+				},
+				"helpers/": {
+					"alias-feature.mjs": "make/helpers/alias-feature.mjs",
+					"bake-feature.mjs": "make/helpers/bake-feature.mjs",
+					"drop.mjs": "make/helpers/drop.mjs",
+					"feature-simplify.mjs": "make/helpers/feature-simplify.mjs",
+					"font-io.mjs": "make/helpers/font-io.mjs",
+					"geometry.mjs": "make/helpers/geometry.mjs",
+					"glyph-finder.mjs": "make/helpers/glyph-finder.mjs",
+					"sort-glyphs.mjs": "make/helpers/sort-glyphs.mjs",
+					"unicode-kind.mjs": "make/helpers/unicode-kind.mjs"
+				},
+				"kanji/": {
+					"build.mjs": "make/kanji/build.mjs"
+				},
+				"non-kanji/": {
+					"build.mjs": "make/non-kanji/build.mjs"
+				},
+				"pass1/": {
+					"index.mjs": "make/pass1/index.mjs",
+					"metadata.mjs": "make/pass1/metadata.mjs"
+				},
+				"pass2/": {
+					"index.mjs": "make/pass2/index.mjs"
+				},
+				"punct/": {
+					"as.mjs": "make/punct/as.mjs",
+					"bake-locl.mjs": "make/punct/bake-locl.mjs",
+					"build-continuous-em-dash.mjs": "make/punct/build-continuous-em-dash.mjs",
+					"fe-misc.mjs": "make/punct/fe-misc.mjs",
+					"lgc-helpers.mjs": "make/punct/lgc-helpers.mjs",
+					"sanitize-symbols.mjs": "make/punct/sanitize-symbols.mjs",
+					"ws.mjs": "make/punct/ws.mjs"
+				}
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::make",
+						"args": [
+							"make"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirStructure::make/hangul",
+						"args": [
+							"make/hangul"
+						]
+					},
+					{
+						"id": "Builtin::DirStructure::make/helpers",
+						"args": [
+							"make/helpers"
+						]
+					},
+					{
+						"id": "Builtin::DirStructure::make/kanji",
+						"args": [
+							"make/kanji"
+						]
+					},
+					{
+						"id": "Builtin::DirStructure::make/non-kanji",
+						"args": [
+							"make/non-kanji"
+						]
+					},
+					{
+						"id": "Builtin::DirStructure::make/pass1",
+						"args": [
+							"make/pass1"
+						]
+					},
+					{
+						"id": "Builtin::DirStructure::make/pass2",
+						"args": [
+							"make/pass2"
+						]
+					},
+					{
+						"id": "Builtin::DirStructure::make/punct",
+						"args": [
+							"make/punct"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make": {
+			"id": "Builtin::FileUpdated::make",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make",
+				"prefix": "",
+				"root": "",
+				"dir": "",
+				"base": "make",
+				"ext": "",
+				"name": "make",
+				"present": true,
+				"updated": "2025-05-24T06:40:25.550Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 7
+		},
+		"Builtin::DirStructure::make/hangul": {
+			"id": "Builtin::DirStructure::make/hangul",
+			"volatile": true,
+			"result": {
+				"build.mjs": "make/hangul/build.mjs"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::make/hangul",
+						"args": [
+							"make/hangul"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::DirStructure::make/helpers": {
+			"id": "Builtin::DirStructure::make/helpers",
+			"volatile": true,
+			"result": {
+				"alias-feature.mjs": "make/helpers/alias-feature.mjs",
+				"bake-feature.mjs": "make/helpers/bake-feature.mjs",
+				"drop.mjs": "make/helpers/drop.mjs",
+				"feature-simplify.mjs": "make/helpers/feature-simplify.mjs",
+				"font-io.mjs": "make/helpers/font-io.mjs",
+				"geometry.mjs": "make/helpers/geometry.mjs",
+				"glyph-finder.mjs": "make/helpers/glyph-finder.mjs",
+				"sort-glyphs.mjs": "make/helpers/sort-glyphs.mjs",
+				"unicode-kind.mjs": "make/helpers/unicode-kind.mjs"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::make/helpers",
+						"args": [
+							"make/helpers"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::DirStructure::make/kanji": {
+			"id": "Builtin::DirStructure::make/kanji",
+			"volatile": true,
+			"result": {
+				"build.mjs": "make/kanji/build.mjs"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::make/kanji",
+						"args": [
+							"make/kanji"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::DirStructure::make/non-kanji": {
+			"id": "Builtin::DirStructure::make/non-kanji",
+			"volatile": true,
+			"result": {
+				"build.mjs": "make/non-kanji/build.mjs"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::make/non-kanji",
+						"args": [
+							"make/non-kanji"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::DirStructure::make/pass1": {
+			"id": "Builtin::DirStructure::make/pass1",
+			"volatile": true,
+			"result": {
+				"index.mjs": "make/pass1/index.mjs",
+				"metadata.mjs": "make/pass1/metadata.mjs"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::make/pass1",
+						"args": [
+							"make/pass1"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::DirStructure::make/pass2": {
+			"id": "Builtin::DirStructure::make/pass2",
+			"volatile": true,
+			"result": {
+				"index.mjs": "make/pass2/index.mjs"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::make/pass2",
+						"args": [
+							"make/pass2"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::DirStructure::make/punct": {
+			"id": "Builtin::DirStructure::make/punct",
+			"volatile": true,
+			"result": {
+				"as.mjs": "make/punct/as.mjs",
+				"bake-locl.mjs": "make/punct/bake-locl.mjs",
+				"build-continuous-em-dash.mjs": "make/punct/build-continuous-em-dash.mjs",
+				"fe-misc.mjs": "make/punct/fe-misc.mjs",
+				"lgc-helpers.mjs": "make/punct/lgc-helpers.mjs",
+				"sanitize-symbols.mjs": "make/punct/sanitize-symbols.mjs",
+				"ws.mjs": "make/punct/ws.mjs"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::FileUpdated::make/punct",
+						"args": [
+							"make/punct"
+						]
+					}
+				]
+			],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/hangul": {
+			"id": "Builtin::FileUpdated::make/hangul",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/hangul",
+				"prefix": "",
+				"root": "",
+				"dir": "make",
+				"base": "hangul",
+				"ext": "",
+				"name": "hangul",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 7
+		},
+		"Builtin::FileUpdated::make/helpers": {
+			"id": "Builtin::FileUpdated::make/helpers",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers",
+				"prefix": "",
+				"root": "",
+				"dir": "make",
+				"base": "helpers",
+				"ext": "",
+				"name": "helpers",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 7
+		},
+		"Builtin::FileUpdated::make/kanji": {
+			"id": "Builtin::FileUpdated::make/kanji",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/kanji",
+				"prefix": "",
+				"root": "",
+				"dir": "make",
+				"base": "kanji",
+				"ext": "",
+				"name": "kanji",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 7
+		},
+		"Builtin::FileUpdated::make/non-kanji": {
+			"id": "Builtin::FileUpdated::make/non-kanji",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/non-kanji",
+				"prefix": "",
+				"root": "",
+				"dir": "make",
+				"base": "non-kanji",
+				"ext": "",
+				"name": "non-kanji",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 7
+		},
+		"Builtin::FileUpdated::make/pass1": {
+			"id": "Builtin::FileUpdated::make/pass1",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/pass1",
+				"prefix": "",
+				"root": "",
+				"dir": "make",
+				"base": "pass1",
+				"ext": "",
+				"name": "pass1",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 7
+		},
+		"Builtin::FileUpdated::make/pass2": {
+			"id": "Builtin::FileUpdated::make/pass2",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/pass2",
+				"prefix": "",
+				"root": "",
+				"dir": "make",
+				"base": "pass2",
+				"ext": "",
+				"name": "pass2",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 7
+		},
+		"Builtin::FileUpdated::make/punct": {
+			"id": "Builtin::FileUpdated::make/punct",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/punct",
+				"prefix": "",
+				"root": "",
+				"dir": "make",
+				"base": "punct",
+				"ext": "",
+				"name": "punct",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 7
+		},
+		"Builtin::FileUpdated::make/hangul/build.mjs": {
+			"id": "Builtin::FileUpdated::make/hangul/build.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/hangul/build.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/hangul",
+				"base": "build.mjs",
+				"ext": ".mjs",
+				"name": "build",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "9a456b8fc3a658f1d5c3867b4dbb689b1be1fe32"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/alias-feature.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/alias-feature.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/alias-feature.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "alias-feature.mjs",
+				"ext": ".mjs",
+				"name": "alias-feature",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "6559d100a5b2eb3532c6b802696204c5949b2226"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/bake-feature.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/bake-feature.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/bake-feature.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "bake-feature.mjs",
+				"ext": ".mjs",
+				"name": "bake-feature",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "82b87135d2783bc27f384bc7a039b5b0b999ad60"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/drop.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/drop.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/drop.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "drop.mjs",
+				"ext": ".mjs",
+				"name": "drop",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "e1182056315ac02f97006c286832130d0e104219"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/feature-simplify.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/feature-simplify.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/feature-simplify.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "feature-simplify.mjs",
+				"ext": ".mjs",
+				"name": "feature-simplify",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "b11303883acc08ead469d421e3871a3cdecb6c75"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/font-io.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/font-io.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/font-io.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "font-io.mjs",
+				"ext": ".mjs",
+				"name": "font-io",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "4990ec8aab4d7ef8298cdf1f9f6e940bda3a9491"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/geometry.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/geometry.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/geometry.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "geometry.mjs",
+				"ext": ".mjs",
+				"name": "geometry",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "6d2b266f722270226ab0cb8827d264e7aad8da03"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/glyph-finder.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/glyph-finder.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/glyph-finder.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "glyph-finder.mjs",
+				"ext": ".mjs",
+				"name": "glyph-finder",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "c9e8d1eb986859fa6fa5c068d1ec7d3ceeb4dbac"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/sort-glyphs.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/sort-glyphs.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/sort-glyphs.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "sort-glyphs.mjs",
+				"ext": ".mjs",
+				"name": "sort-glyphs",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "1ebe1e6bab77bb79c86acbb251da7cad75388d15"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/helpers/unicode-kind.mjs": {
+			"id": "Builtin::FileUpdated::make/helpers/unicode-kind.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/helpers/unicode-kind.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/helpers",
+				"base": "unicode-kind.mjs",
+				"ext": ".mjs",
+				"name": "unicode-kind",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.332Z",
+				"hash": "669747b87ee671d9f8677d865885804ccd200578"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/kanji/build.mjs": {
+			"id": "Builtin::FileUpdated::make/kanji/build.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/kanji/build.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/kanji",
+				"base": "build.mjs",
+				"ext": ".mjs",
+				"name": "build",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "35c3699d7a136539dab636a721acb6b60a13022d"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/non-kanji/build.mjs": {
+			"id": "Builtin::FileUpdated::make/non-kanji/build.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/non-kanji/build.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/non-kanji",
+				"base": "build.mjs",
+				"ext": ".mjs",
+				"name": "build",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "b7e036849c98d6fc42aacf39cd9a76c16219fd27"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/pass1/index.mjs": {
+			"id": "Builtin::FileUpdated::make/pass1/index.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/pass1/index.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/pass1",
+				"base": "index.mjs",
+				"ext": ".mjs",
+				"name": "index",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "a84decf4eabfdfd718e3cfb71f47e0c93f98f229"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/pass1/metadata.mjs": {
+			"id": "Builtin::FileUpdated::make/pass1/metadata.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/pass1/metadata.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/pass1",
+				"base": "metadata.mjs",
+				"ext": ".mjs",
+				"name": "metadata",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "f27b4a35d63999d4f97720ba23cb0a7d61930845"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/pass2/index.mjs": {
+			"id": "Builtin::FileUpdated::make/pass2/index.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/pass2/index.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/pass2",
+				"base": "index.mjs",
+				"ext": ".mjs",
+				"name": "index",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "5c456e4056427765791690eb7b09d676d2b913e5"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/punct/as.mjs": {
+			"id": "Builtin::FileUpdated::make/punct/as.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/punct/as.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/punct",
+				"base": "as.mjs",
+				"ext": ".mjs",
+				"name": "as",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "f4f125a3eb853a0eca97346a6ee07d5dad15f8f5"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/punct/bake-locl.mjs": {
+			"id": "Builtin::FileUpdated::make/punct/bake-locl.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/punct/bake-locl.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/punct",
+				"base": "bake-locl.mjs",
+				"ext": ".mjs",
+				"name": "bake-locl",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "9ba523ddc8a78974bde2e877a576f8efe66fc4ae"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/punct/build-continuous-em-dash.mjs": {
+			"id": "Builtin::FileUpdated::make/punct/build-continuous-em-dash.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/punct/build-continuous-em-dash.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/punct",
+				"base": "build-continuous-em-dash.mjs",
+				"ext": ".mjs",
+				"name": "build-continuous-em-dash",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "61b2a5770b68d6d5c127a79c3bd2db3f37a33eda"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/punct/fe-misc.mjs": {
+			"id": "Builtin::FileUpdated::make/punct/fe-misc.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/punct/fe-misc.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/punct",
+				"base": "fe-misc.mjs",
+				"ext": ".mjs",
+				"name": "fe-misc",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.330Z",
+				"hash": "e6e728254150ad23cc448d2972446ac551f9e46a"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/punct/lgc-helpers.mjs": {
+			"id": "Builtin::FileUpdated::make/punct/lgc-helpers.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/punct/lgc-helpers.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/punct",
+				"base": "lgc-helpers.mjs",
+				"ext": ".mjs",
+				"name": "lgc-helpers",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "964c65da03d72dc7642ceea78f68a3732eb40faa"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/punct/sanitize-symbols.mjs": {
+			"id": "Builtin::FileUpdated::make/punct/sanitize-symbols.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/punct/sanitize-symbols.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/punct",
+				"base": "sanitize-symbols.mjs",
+				"ext": ".mjs",
+				"name": "sanitize-symbols",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "3d4fb0ee7ada351c5e3742088f5d079f233b543c"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::FileUpdated::make/punct/ws.mjs": {
+			"id": "Builtin::FileUpdated::make/punct/ws.mjs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "make/punct/ws.mjs",
+				"prefix": "",
+				"root": "",
+				"dir": "make/punct",
+				"base": "ws.mjs",
+				"ext": ".mjs",
+				"name": "ws",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.331Z",
+				"hash": "8d26e9358555b24ddf0b25bfc105b7547995000c"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::Oracle::oracles::version": {
+			"id": "Builtin::Oracle::oracles::version",
+			"volatile": false,
+			"result": "1.0.30",
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-ExtraLight/hani": {
+			"id": "Builtin::DirExists::.build/hf-ExtraLight/hani",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-ExtraLight/hani",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-ExtraLight",
+				"base": "hani",
+				"ext": "",
+				"name": "hani",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.796Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-ExtraLight/hang": {
+			"id": "Builtin::DirExists::.build/hf-ExtraLight/hang",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-ExtraLight/hang",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-ExtraLight",
+				"base": "hang",
+				"ext": "",
+				"name": "hang",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.796Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Light/hani": {
+			"id": "Builtin::DirExists::.build/hf-Light/hani",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Light/hani",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Light",
+				"base": "hani",
+				"ext": "",
+				"name": "hani",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.796Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Light/hang": {
+			"id": "Builtin::DirExists::.build/hf-Light/hang",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Light/hang",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Light",
+				"base": "hang",
+				"ext": "",
+				"name": "hang",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.796Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Regular/hani": {
+			"id": "Builtin::DirExists::.build/hf-Regular/hani",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Regular/hani",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Regular",
+				"base": "hani",
+				"ext": "",
+				"name": "hani",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Regular/hang": {
+			"id": "Builtin::DirExists::.build/hf-Regular/hang",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Regular/hang",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Regular",
+				"base": "hang",
+				"ext": "",
+				"name": "hang",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-SemiBold/hani": {
+			"id": "Builtin::DirExists::.build/hf-SemiBold/hani",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-SemiBold/hani",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-SemiBold",
+				"base": "hani",
+				"ext": "",
+				"name": "hani",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-SemiBold/hang": {
+			"id": "Builtin::DirExists::.build/hf-SemiBold/hang",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-SemiBold/hang",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-SemiBold",
+				"base": "hang",
+				"ext": "",
+				"name": "hang",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Bold/hani": {
+			"id": "Builtin::DirExists::.build/hf-Bold/hani",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Bold/hani",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Bold",
+				"base": "hani",
+				"ext": "",
+				"name": "hani",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Bold/hang": {
+			"id": "Builtin::DirExists::.build/hf-Bold/hang",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Bold/hang",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Bold",
+				"base": "hang",
+				"ext": "",
+				"name": "hang",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-ExtraLight/pass1": {
+			"id": "Builtin::DirExists::.build/hf-ExtraLight/pass1",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-ExtraLight/pass1",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-ExtraLight",
+				"base": "pass1",
+				"ext": "",
+				"name": "pass1",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.797Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Light/pass1": {
+			"id": "Builtin::DirExists::.build/hf-Light/pass1",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Light/pass1",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Light",
+				"base": "pass1",
+				"ext": "",
+				"name": "pass1",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.797Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Regular/pass1": {
+			"id": "Builtin::DirExists::.build/hf-Regular/pass1",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Regular/pass1",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Regular",
+				"base": "pass1",
+				"ext": "",
+				"name": "pass1",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-SemiBold/pass1": {
+			"id": "Builtin::DirExists::.build/hf-SemiBold/pass1",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-SemiBold/pass1",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-SemiBold",
+				"base": "pass1",
+				"ext": "",
+				"name": "pass1",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hf-Bold/pass1": {
+			"id": "Builtin::DirExists::.build/hf-Bold/pass1",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hf-Bold/pass1",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hf-Bold",
+				"base": "pass1",
+				"ext": "",
+				"name": "pass1",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.798Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/kanji0": {
+			"id": "Builtin::DirExists::.build/kanji0",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "kanji0",
+				"ext": "",
+				"name": "kanji0",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.818Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/hangul0": {
+			"id": "Builtin::DirExists::.build/hangul0",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "hangul0",
+				"ext": "",
+				"name": "hangul0",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.818Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/pass1": {
+			"id": "Builtin::DirExists::.build/pass1",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/pass1",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "pass1",
+				"ext": "",
+				"name": "pass1",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.867Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/shs": {
+			"id": "Builtin::DirExists::.build/shs",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "shs",
+				"ext": "",
+				"name": "shs",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.890Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/latin-Inter": {
+			"id": "Builtin::DirExists::.build/latin-Inter",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "latin-Inter",
+				"ext": "",
+				"name": "latin-Inter",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.893Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/as0": {
+			"id": "Builtin::DirExists::.build/as0",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/as0",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "as0",
+				"ext": "",
+				"name": "as0",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.922Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/ws0": {
+			"id": "Builtin::DirExists::.build/ws0",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/ws0",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "ws0",
+				"ext": "",
+				"name": "ws0",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.922Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::DirExists::.build/fe-misc0": {
+			"id": "Builtin::DirExists::.build/fe-misc0",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/fe-misc0",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "fe-misc0",
+				"ext": "",
+				"name": "fe-misc0",
+				"present": true,
+				"updated": "2025-05-27T14:57:53.922Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 3
+		},
+		"Builtin::File::.build/non-kanji0/HC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/HC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/HC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "HC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "HC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:16:29.034Z",
+				"hash": "36fced961df79e1b381a92c33d226a45fd8c481a"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/HC-ExtraLight.ttf",
+						"args": [
+							"HC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/SC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/kanji0/SC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/SC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "SC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "SC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:16:24.176Z",
+				"hash": "aed8d5440c01120b1b7de8dca2fe133d8e3ec74d"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/SC-ExtraLight.ttf",
+						"args": [
+							"SC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/SC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/hangul0/SC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/SC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "SC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "SC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:16:22.376Z",
+				"hash": "3aa86d9d44b5974e82dfa5386b199553b01055a9"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/SC-ExtraLight.ttf",
+						"args": [
+							"SC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/SC-Light.ttf": {
+			"id": "Builtin::File::.build/kanji0/SC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/SC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "SC-Light.ttf",
+				"ext": ".ttf",
+				"name": "SC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:16:23.277Z",
+				"hash": "2852c360919952fa33fb58def63bf57376019afc"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/SC-Light.ttf",
+						"args": [
+							"SC",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/SC-Light.ttf": {
+			"id": "Builtin::File::.build/hangul0/SC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/SC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "SC-Light.ttf",
+				"ext": ".ttf",
+				"name": "SC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:16:22.086Z",
+				"hash": "c987707659ba293e1e30b1e74cc8622b3809a6b9"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/SC-Light.ttf",
+						"args": [
+							"SC",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/TC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/kanji0/TC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/TC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "TC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "TC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:06.744Z",
+				"hash": "c36e5e148027aec805f62c71ae39059c8f393152"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/TC-ExtraLight.ttf",
+						"args": [
+							"TC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/TC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/hangul0/TC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/TC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "TC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "TC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:05.311Z",
+				"hash": "fc986d869564fb597991e41f4200471770257506"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/TC-ExtraLight.ttf",
+						"args": [
+							"TC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/TC-Light.ttf": {
+			"id": "Builtin::File::.build/kanji0/TC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/TC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "TC-Light.ttf",
+				"ext": ".ttf",
+				"name": "TC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:15:55.617Z",
+				"hash": "d42344a6c6f192c8b656da83232dc758aa1e3c9d"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/TC-Light.ttf",
+						"args": [
+							"TC",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/TC-Light.ttf": {
+			"id": "Builtin::File::.build/hangul0/TC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/TC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "TC-Light.ttf",
+				"ext": ".ttf",
+				"name": "TC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:15:34.130Z",
+				"hash": "5414c60851b6db84448d31220bb07139a03496cb"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/TC-Light.ttf",
+						"args": [
+							"TC",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/TC-SemiBold.ttf": {
+			"id": "Builtin::File::.build/hangul0/TC-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/TC-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "TC-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "TC-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:17:42.591Z",
+				"hash": "ab848c045fe20590db4fb00406733463ca0f5eba"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/TC-SemiBold.ttf",
+						"args": [
+							"TC",
+							"SemiBold"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/HC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/kanji0/HC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/HC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "HC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "HC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:16:24.305Z",
+				"hash": "f2963ff52cf8033aeb68220f61c7b5d16401dba6"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/HC-ExtraLight.ttf",
+						"args": [
+							"HC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/HC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/hangul0/HC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/HC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "HC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "HC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:16:22.958Z",
+				"hash": "b97ab47c48062f80440aa4e5d010625182f7eff5"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/HC-ExtraLight.ttf",
+						"args": [
+							"HC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/J-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/kanji0/J-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/J-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "J-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "J-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:55.771Z",
+				"hash": "447312ff44309277c650c82ae25c3f5d0e6b4c07"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/J-ExtraLight.ttf",
+						"args": [
+							"J",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/J-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/hangul0/J-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/J-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "J-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "J-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:54.425Z",
+				"hash": "80f3b0ea4c0b500ffcb3a91103e076ebaf5c3879"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/J-ExtraLight.ttf",
+						"args": [
+							"J",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/J-SemiBold.ttf": {
+			"id": "Builtin::File::.build/kanji0/J-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/J-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "J-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "J-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:17:36.552Z",
+				"hash": "fbdd220894fc4119abceda11c0a39beefaa8fef3"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/J-SemiBold.ttf",
+						"args": [
+							"J",
+							"SemiBold"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/J-SemiBold.ttf": {
+			"id": "Builtin::File::.build/hangul0/J-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/J-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "J-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "J-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:17:34.469Z",
+				"hash": "6b60ab6f6ceb31dd4bfcb4a666d049244b9f4e4f"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/J-SemiBold.ttf",
+						"args": [
+							"J",
+							"SemiBold"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/K-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/kanji0/K-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/K-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "K-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "K-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:56.170Z",
+				"hash": "6457bba6fb8e49c98ec7b1f6a4dc6ed6e7ff1c11"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/K-ExtraLight.ttf",
+						"args": [
+							"K",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/K-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/hangul0/K-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/K-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "K-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "K-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:54.830Z",
+				"hash": "791ed4980b3c8f6ef486ae7f11626c837ef73e1f"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/K-ExtraLight.ttf",
+						"args": [
+							"K",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/kanji0/K-Light.ttf": {
+			"id": "Builtin::File::.build/kanji0/K-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/kanji0/K-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/kanji0",
+				"base": "K-Light.ttf",
+				"ext": ".ttf",
+				"name": "K-Light",
+				"present": true,
+				"updated": "2025-05-27T15:17:35.326Z",
+				"hash": "d672d1b9348082a00c5a4ce8cc3c8ffc490702e2"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/K-Light.ttf",
+						"args": [
+							"K",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/kanji0",
+						"args": [
+							".build/kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/K-Light.ttf": {
+			"id": "Builtin::File::.build/hangul0/K-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/K-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "K-Light.ttf",
+				"ext": ".ttf",
+				"name": "K-Light",
+				"present": true,
+				"updated": "2025-05-27T15:17:34.053Z",
+				"hash": "0256ac1b4a4eb77fe92a12255fae45f230fb994c"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/K-Light.ttf",
+						"args": [
+							"K",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/CL-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/hangul0/CL-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/CL-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "CL-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "CL-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:16:01.894Z",
+				"hash": "791ed4980b3c8f6ef486ae7f11626c837ef73e1f"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/CL-ExtraLight.ttf",
+						"args": [
+							"CL",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/hangul0/CL-Light.ttf": {
+			"id": "Builtin::File::.build/hangul0/CL-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/hangul0/CL-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/hangul0",
+				"base": "CL-Light.ttf",
+				"ext": ".ttf",
+				"name": "CL-Light",
+				"present": true,
+				"updated": "2025-05-27T15:16:29.355Z",
+				"hash": "666aa684dbaa3b5f2621bd601a783f1efafb1d77"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/CL-Light.ttf",
+						"args": [
+							"CL",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/hangul0",
+						"args": [
+							".build/hangul0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/SC-Light.ttf": {
+			"id": "Builtin::File::.build/shs/SC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SC-Light.ttf",
+				"ext": ".ttf",
+				"name": "SC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:45.095Z",
+				"hash": "893e0e38f51ee439d12f682b375ffdaef708c2e6"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Light",
+						"args": [
+							"Light"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-Light.otf",
+						"args": [
+							".build/shs/SourceHanSansSC-Light.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/SC-Regular.ttf": {
+			"id": "Builtin::File::.build/shs/SC-Regular.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SC-Regular.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SC-Regular.ttf",
+				"ext": ".ttf",
+				"name": "SC-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:17:04.764Z",
+				"hash": "74041391a67668fe06c6ae6c263bd85d756f38af"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Regular",
+						"args": [
+							"Regular"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-Regular.otf",
+						"args": [
+							".build/shs/SourceHanSansSC-Regular.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/SC-SemiBold.ttf": {
+			"id": "Builtin::File::.build/shs/SC-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SC-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SC-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "SC-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:15:26.610Z",
+				"hash": "42f62872bb3d432fa373a92c453b3cb9cec1c6b0"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::SemiBold",
+						"args": [
+							"SemiBold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-Medium.otf",
+						"args": [
+							".build/shs/SourceHanSansSC-Medium.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/SC-Bold.ttf": {
+			"id": "Builtin::File::.build/shs/SC-Bold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SC-Bold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SC-Bold.ttf",
+				"ext": ".ttf",
+				"name": "SC-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:17:02.962Z",
+				"hash": "e459f7e6f7a234858b43a97c17d68f6e72746171"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Bold",
+						"args": [
+							"Bold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-Bold.otf",
+						"args": [
+							".build/shs/SourceHanSansSC-Bold.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/SC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/shs/SC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "SC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:45.159Z",
+				"hash": "408d4077b03a42ae7b3642c2bcc946a1a4f3e50c"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::ExtraLight",
+						"args": [
+							"ExtraLight"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-ExtraLight.otf",
+						"args": [
+							".build/shs/SourceHanSansSC-ExtraLight.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/TC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/shs/TC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/TC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "TC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "TC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:44.854Z",
+				"hash": "70a41308ef064d13c6e0368961c1071eac716599"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::ExtraLight",
+						"args": [
+							"ExtraLight"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-ExtraLight.otf",
+						"args": [
+							".build/shs/SourceHanSansTC-ExtraLight.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/TC-Light.ttf": {
+			"id": "Builtin::File::.build/shs/TC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/TC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "TC-Light.ttf",
+				"ext": ".ttf",
+				"name": "TC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:44.782Z",
+				"hash": "d373a4f67432ba064a33309fb1a6470ab83fe4c4"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Light",
+						"args": [
+							"Light"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-Light.otf",
+						"args": [
+							".build/shs/SourceHanSansTC-Light.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/TC-Regular.ttf": {
+			"id": "Builtin::File::.build/shs/TC-Regular.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/TC-Regular.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "TC-Regular.ttf",
+				"ext": ".ttf",
+				"name": "TC-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:17:10.907Z",
+				"hash": "432c66760def42f07f3803110a9420d1c074f70b"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Regular",
+						"args": [
+							"Regular"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-Regular.otf",
+						"args": [
+							".build/shs/SourceHanSansTC-Regular.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/TC-SemiBold.ttf": {
+			"id": "Builtin::File::.build/shs/TC-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/TC-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "TC-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "TC-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:15:26.550Z",
+				"hash": "27191331025b8889e5824543c407b904a172629d"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::SemiBold",
+						"args": [
+							"SemiBold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-Medium.otf",
+						"args": [
+							".build/shs/SourceHanSansTC-Medium.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/TC-Bold.ttf": {
+			"id": "Builtin::File::.build/shs/TC-Bold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/TC-Bold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "TC-Bold.ttf",
+				"ext": ".ttf",
+				"name": "TC-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:17:03.468Z",
+				"hash": "fe22041c822de33cda134d4d91dab744c0d9a327"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Bold",
+						"args": [
+							"Bold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-Bold.otf",
+						"args": [
+							".build/shs/SourceHanSansTC-Bold.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/HC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/shs/HC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/HC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "HC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "HC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:45.228Z",
+				"hash": "7421eebbcca86ec1690a9052c517db4868473642"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::ExtraLight",
+						"args": [
+							"ExtraLight"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-ExtraLight.otf",
+						"args": [
+							".build/shs/SourceHanSansHC-ExtraLight.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/HC-Light.ttf": {
+			"id": "Builtin::File::.build/shs/HC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/HC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "HC-Light.ttf",
+				"ext": ".ttf",
+				"name": "HC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:15:27.222Z",
+				"hash": "b558297216424c1fd9c6c065ca958ebc247697f6"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Light",
+						"args": [
+							"Light"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-Light.otf",
+						"args": [
+							".build/shs/SourceHanSansHC-Light.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/HC-Regular.ttf": {
+			"id": "Builtin::File::.build/shs/HC-Regular.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/HC-Regular.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "HC-Regular.ttf",
+				"ext": ".ttf",
+				"name": "HC-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:17:11.671Z",
+				"hash": "3511f0f05e7704ddf55bd1bf0185d5fc3368447a"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Regular",
+						"args": [
+							"Regular"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-Regular.otf",
+						"args": [
+							".build/shs/SourceHanSansHC-Regular.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/HC-SemiBold.ttf": {
+			"id": "Builtin::File::.build/shs/HC-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/HC-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "HC-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "HC-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:15:26.784Z",
+				"hash": "8ba4080eb06411e1e7121cd061cfe1015bc34c21"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::SemiBold",
+						"args": [
+							"SemiBold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-Medium.otf",
+						"args": [
+							".build/shs/SourceHanSansHC-Medium.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/HC-Bold.ttf": {
+			"id": "Builtin::File::.build/shs/HC-Bold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/HC-Bold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "HC-Bold.ttf",
+				"ext": ".ttf",
+				"name": "HC-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:17:04.116Z",
+				"hash": "e0a16d19a5d4f4aa34b4406c8ef263bfa82566ab"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Bold",
+						"args": [
+							"Bold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-Bold.otf",
+						"args": [
+							".build/shs/SourceHanSansHC-Bold.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/J-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/shs/J-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/J-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "J-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "J-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:44.821Z",
+				"hash": "e4c98c9844e3ee5561bd7e1bb22f0da3b4719dc2"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::ExtraLight",
+						"args": [
+							"ExtraLight"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-ExtraLight.otf",
+						"args": [
+							".build/shs/SourceHanSans-ExtraLight.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/J-Light.ttf": {
+			"id": "Builtin::File::.build/shs/J-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/J-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "J-Light.ttf",
+				"ext": ".ttf",
+				"name": "J-Light",
+				"present": true,
+				"updated": "2025-05-27T15:15:27.100Z",
+				"hash": "ff4f44eb3ae05799c20fa50f8ad4608bf0f36ae7"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Light",
+						"args": [
+							"Light"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-Light.otf",
+						"args": [
+							".build/shs/SourceHanSans-Light.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/J-Regular.ttf": {
+			"id": "Builtin::File::.build/shs/J-Regular.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/J-Regular.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "J-Regular.ttf",
+				"ext": ".ttf",
+				"name": "J-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:17:35.342Z",
+				"hash": "c41f21de770cc07324a768a4e6ed10848080d78f"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Regular",
+						"args": [
+							"Regular"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-Regular.otf",
+						"args": [
+							".build/shs/SourceHanSans-Regular.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/J-SemiBold.ttf": {
+			"id": "Builtin::File::.build/shs/J-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/J-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "J-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "J-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:15:26.325Z",
+				"hash": "ce658c5324793d3dcca4013140140d5c619c1f69"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::SemiBold",
+						"args": [
+							"SemiBold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-Medium.otf",
+						"args": [
+							".build/shs/SourceHanSans-Medium.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/J-Bold.ttf": {
+			"id": "Builtin::File::.build/shs/J-Bold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/J-Bold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "J-Bold.ttf",
+				"ext": ".ttf",
+				"name": "J-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:17:04.503Z",
+				"hash": "36b141bd3ffcdaf13412f6526db7bd665e6e5123"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Bold",
+						"args": [
+							"Bold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-Bold.otf",
+						"args": [
+							".build/shs/SourceHanSans-Bold.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/K-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/shs/K-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/K-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "K-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "K-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:44.882Z",
+				"hash": "7f7b20240318187951d7449e70a0d2da516e942c"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::ExtraLight",
+						"args": [
+							"ExtraLight"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-ExtraLight.otf",
+						"args": [
+							".build/shs/SourceHanSansK-ExtraLight.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/K-Light.ttf": {
+			"id": "Builtin::File::.build/shs/K-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/K-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "K-Light.ttf",
+				"ext": ".ttf",
+				"name": "K-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:46.092Z",
+				"hash": "f3068476ebc3b6c7c1c8ba451122cbdaaa69c6bd"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Light",
+						"args": [
+							"Light"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Light.otf",
+						"args": [
+							".build/shs/SourceHanSansK-Light.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/K-SemiBold.ttf": {
+			"id": "Builtin::File::.build/shs/K-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/K-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "K-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "K-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:15:26.991Z",
+				"hash": "ca664992c8e13690b311970dda2fd36805543b88"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::SemiBold",
+						"args": [
+							"SemiBold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Medium.otf",
+						"args": [
+							".build/shs/SourceHanSansK-Medium.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/K-Bold.ttf": {
+			"id": "Builtin::File::.build/shs/K-Bold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/K-Bold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "K-Bold.ttf",
+				"ext": ".ttf",
+				"name": "K-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:17:03.869Z",
+				"hash": "d67f02cadb3a90afc8d11eeed6a7bfbb033f4dca"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Bold",
+						"args": [
+							"Bold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Bold.otf",
+						"args": [
+							".build/shs/SourceHanSansK-Bold.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/CL-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/shs/CL-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/CL-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "CL-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "CL-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:44.915Z",
+				"hash": "7f7b20240318187951d7449e70a0d2da516e942c"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::ExtraLight",
+						"args": [
+							"ExtraLight"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-ExtraLight.otf",
+						"args": [
+							".build/shs/SourceHanSansK-ExtraLight.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/CL-Light.ttf": {
+			"id": "Builtin::File::.build/shs/CL-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/CL-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "CL-Light.ttf",
+				"ext": ".ttf",
+				"name": "CL-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:45.597Z",
+				"hash": "fb78209967b75f6607583e729560497cb95ba87f"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Light",
+						"args": [
+							"Light"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Light.otf",
+						"args": [
+							".build/shs/SourceHanSansK-Light.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/CL-SemiBold.ttf": {
+			"id": "Builtin::File::.build/shs/CL-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/CL-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "CL-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "CL-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:15:26.654Z",
+				"hash": "ca664992c8e13690b311970dda2fd36805543b88"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::SemiBold",
+						"args": [
+							"SemiBold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Medium.otf",
+						"args": [
+							".build/shs/SourceHanSansK-Medium.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/shs/CL-Bold.ttf": {
+			"id": "Builtin::File::.build/shs/CL-Bold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/CL-Bold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "CL-Bold.ttf",
+				"ext": ".ttf",
+				"name": "CL-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:17:03.769Z",
+				"hash": "d67f02cadb3a90afc8d11eeed6a7bfbb033f4dca"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::break-ttc::Bold",
+						"args": [
+							"Bold"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					},
+					{
+						"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Bold.otf",
+						"args": [
+							".build/shs/SourceHanSansK-Bold.otf"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::Task::break-ttc::Light": {
+			"id": "Builtin::Task::break-ttc::Light",
+			"volatile": false,
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::Task::break-ttc::Regular": {
+			"id": "Builtin::Task::break-ttc::Regular",
+			"volatile": false,
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::Task::break-ttc::SemiBold": {
+			"id": "Builtin::Task::break-ttc::SemiBold",
+			"volatile": false,
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::Task::break-ttc::Bold": {
+			"id": "Builtin::Task::break-ttc::Bold",
+			"volatile": false,
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-ExtraLightItalic.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-ExtraLightItalic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-ExtraLightItalic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-ExtraLightItalic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-ExtraLightItalic",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.234Z",
+				"hash": "af33ce4da7f89a2d2bd4658a94d726543209f1a2"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-ExtraLightItalic.ttf",
+						"args": [
+							"sources/Inter/Inter-ExtraLightItalic.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::Task::break-ttc::ExtraLight": {
+			"id": "Builtin::Task::break-ttc::ExtraLight",
+			"volatile": false,
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/shs",
+						"args": [
+							".build/shs"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-Light.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-Light.ttf",
+				"ext": ".ttf",
+				"name": "Inter-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.234Z",
+				"hash": "51431ef6c6a9600d53b1a87aa9f34a16d89941bf"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-Light.ttf",
+						"args": [
+							"sources/Inter/Inter-Light.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-LightItalic.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-LightItalic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-LightItalic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-LightItalic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-LightItalic",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.246Z",
+				"hash": "ccdbd9f35f69fd2b9c6c27a798f95d7e98762bae"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-LightItalic.ttf",
+						"args": [
+							"sources/Inter/Inter-LightItalic.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-Regular.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-Regular.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-Regular.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-Regular.ttf",
+				"ext": ".ttf",
+				"name": "Inter-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.234Z",
+				"hash": "125ec470d93c33a873e872c667e342645d4faa1b"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-Regular.ttf",
+						"args": [
+							"sources/Inter/Inter-Regular.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-Italic.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-Italic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-Italic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-Italic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-Italic",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.234Z",
+				"hash": "c4936087d4c767728a8f40fdecd8a4edb553d2ff"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-Italic.ttf",
+						"args": [
+							"sources/Inter/Inter-Italic.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-SemiBold.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "Inter-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.234Z",
+				"hash": "083c3051595e16314026bb5a6d7228a01d14a256"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-SemiBold.ttf",
+						"args": [
+							"sources/Inter/Inter-SemiBold.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-SemiBoldItalic.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-SemiBoldItalic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-SemiBoldItalic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-SemiBoldItalic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-SemiBoldItalic",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.246Z",
+				"hash": "c0df2411d8d559ce071b37005a635c5063c12fc6"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-SemiBoldItalic.ttf",
+						"args": [
+							"sources/Inter/Inter-SemiBoldItalic.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-Bold.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-Bold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-Bold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-Bold.ttf",
+				"ext": ".ttf",
+				"name": "Inter-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.245Z",
+				"hash": "38c82aa72b4d1095eca742784f7b2f979bc6cc51"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-Bold.ttf",
+						"args": [
+							"sources/Inter/Inter-Bold.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-BoldItalic.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-BoldItalic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-BoldItalic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-BoldItalic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-BoldItalic",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.245Z",
+				"hash": "0c63f67e469a99bbb9eaf6bbb631b876ede7e31f"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-BoldItalic.ttf",
+						"args": [
+							"sources/Inter/Inter-BoldItalic.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/latin-Inter/Inter-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/latin-Inter/Inter-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/latin-Inter/Inter-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/latin-Inter",
+				"base": "Inter-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "Inter-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.246Z",
+				"hash": "e27b8da208875877fc63b77308faa0ca371da6a6"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					},
+					{
+						"id": "Builtin::DirExists::.build/latin-Inter",
+						"args": [
+							".build/latin-Inter"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::FileUpdated::sources/Inter/Inter-ExtraLight.ttf",
+						"args": [
+							"sources/Inter/Inter-ExtraLight.ttf"
+						]
+					}
+				],
+				[
+					{
+						"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::Computed::group-hint-style-list": {
+			"id": "Builtin::Computed::group-hint-style-list",
+			"volatile": false,
+			"result": [
+				"ExtraLight",
+				"Light",
+				"Regular",
+				"SemiBold",
+				"Bold"
+			],
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/SC-Light.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/SC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/SC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "SC-Light.ttf",
+				"ext": ".ttf",
+				"name": "SC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:16:23.306Z",
+				"hash": "d0d3e06405597a3bea36a937ce65be3a247a4327"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/SC-Light.ttf",
+						"args": [
+							"SC",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/SC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/SC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/SC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "SC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "SC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:16:23.820Z",
+				"hash": "ed29213c97a56d6bf8a32eac676b295e4389c93d"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/SC-ExtraLight.ttf",
+						"args": [
+							"SC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-LightItalic.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-LightItalic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-LightItalic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-LightItalic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-LightItalic",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.120Z",
+				"hash": "8d0000b7fb64c636ad30f12e8aed2d3915f31731"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-Regular.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-Regular.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-Regular.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-Regular.ttf",
+				"ext": ".ttf",
+				"name": "Inter-Regular",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.119Z",
+				"hash": "6e3430f906a4b42b4b63fd8f33e498a43d9f8d84"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/TC-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/TC-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/TC-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "TC-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "TC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:33.821Z",
+				"hash": "40608058f1b18be788134efc5637791cc40e481a"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/TC-ExtraLight.ttf",
+						"args": [
+							"TC",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-Italic.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-Italic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-Italic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-Italic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-Italic",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.125Z",
+				"hash": "0b141c525015d767f7143106b4a424fd282fba71"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-SemiBold.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "Inter-SemiBold",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.128Z",
+				"hash": "b4bdaf6bdd6a479b46c452a7bbae13f5cb2079bf"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-ExtraLightItalic.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-ExtraLightItalic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-ExtraLightItalic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-ExtraLightItalic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-ExtraLightItalic",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.115Z",
+				"hash": "edcda582c10721ff1ecee6cab6cbda5dc9da19aa"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-Light.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-Light.ttf",
+				"ext": ".ttf",
+				"name": "Inter-Light",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.113Z",
+				"hash": "8a6e2acc8d9c4fbbbbefc2fb34ebfcd8216c6b6e"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/TC-Light.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/TC-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/TC-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "TC-Light.ttf",
+				"ext": ".ttf",
+				"name": "TC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:15:55.040Z",
+				"hash": "9c728cc5a2891611b72de207b91b24d6ff6166c1"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/TC-Light.ttf",
+						"args": [
+							"TC",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-SemiBoldItalic.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-SemiBoldItalic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-SemiBoldItalic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-SemiBoldItalic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-SemiBoldItalic",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.115Z",
+				"hash": "45b62a0ed702c13cb3fa9ccb02e2aec3eab24331"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-Bold.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-Bold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-Bold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-Bold.ttf",
+				"ext": ".ttf",
+				"name": "Inter-Bold",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.119Z",
+				"hash": "9461e7c083137c2abe6d198f784fb0d341a527a1"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-BoldItalic.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-BoldItalic.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-BoldItalic.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-BoldItalic.ttf",
+				"ext": ".ttf",
+				"name": "Inter-BoldItalic",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.122Z",
+				"hash": "fa76cc71099cb5e2b29c88db8b09eae6fc2e8e22"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::sources/Inter/Inter-ExtraLight.ttf": {
+			"id": "Builtin::FileUpdated::sources/Inter/Inter-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "sources/Inter/Inter-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": "sources/Inter",
+				"base": "Inter-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "Inter-ExtraLight",
+				"present": true,
+				"updated": "2025-05-20T05:53:57.122Z",
+				"hash": "aed9270b1ec764bb809a7bc7ddde66e39c6836c2"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/J-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/J-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/J-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "J-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "J-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:55.224Z",
+				"hash": "8b932e44d0f7fe3b0a1b1788660a84f95ae8cfb0"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/J-ExtraLight.ttf",
+						"args": [
+							"J",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/J-SemiBold.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/J-SemiBold.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/J-SemiBold.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "J-SemiBold.ttf",
+				"ext": ".ttf",
+				"name": "J-SemiBold",
+				"present": true,
+				"updated": "2025-05-27T15:17:43.526Z",
+				"hash": "1c6d34f608690fd31e085f51312dc86601de0c8b"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/J-SemiBold.ttf",
+						"args": [
+							"J",
+							"SemiBold"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/K-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/K-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/K-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "K-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "K-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:15:55.909Z",
+				"hash": "8235f9f0e584d8a29e69bac79ab4046a11a268c3"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/K-ExtraLight.ttf",
+						"args": [
+							"K",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/K-Light.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/K-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/K-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "K-Light.ttf",
+				"ext": ".ttf",
+				"name": "K-Light",
+				"present": true,
+				"updated": "2025-05-27T15:17:35.377Z",
+				"hash": "49116eaf4a96003c1ea2a2427bcd64a0bdad3f19"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/K-Light.ttf",
+						"args": [
+							"K",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/CL-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/CL-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/CL-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "CL-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "CL-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:16:03.530Z",
+				"hash": "8235f9f0e584d8a29e69bac79ab4046a11a268c3"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/CL-ExtraLight.ttf",
+						"args": [
+							"CL",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::File::.build/non-kanji0/CL-Light.ttf": {
+			"id": "Builtin::File::.build/non-kanji0/CL-Light.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0/CL-Light.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/non-kanji0",
+				"base": "CL-Light.ttf",
+				"ext": ".ttf",
+				"name": "CL-Light",
+				"present": true,
+				"updated": "2025-05-27T15:16:44.844Z",
+				"hash": "24a797b7507ca21ccdc7abccdc9133619a167542"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::File::.build/shs/CL-Light.ttf",
+						"args": [
+							"CL",
+							"Light"
+						]
+					},
+					{
+						"id": "Builtin::DirExists::.build/non-kanji0",
+						"args": [
+							".build/non-kanji0"
+						]
+					}
+				]
+			],
+			"revision": 5
+		},
+		"Builtin::Oracle::oracle:check-ttfautohint-exists": {
+			"id": "Builtin::Oracle::oracle:check-ttfautohint-exists",
+			"volatile": false,
+			"result": "/opt/homebrew/bin/ttfautohint",
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::DirExists::.build/non-kanji0": {
+			"id": "Builtin::DirExists::.build/non-kanji0",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/non-kanji0",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "non-kanji0",
+				"ext": "",
+				"name": "non-kanji0",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.172Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::hcfg/ExtraLight.json": {
+			"id": "Builtin::FileUpdated::hcfg/ExtraLight.json",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "hcfg/ExtraLight.json",
+				"prefix": "",
+				"root": "",
+				"dir": "hcfg",
+				"base": "ExtraLight.json",
+				"ext": ".json",
+				"name": "ExtraLight",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.328Z",
+				"hash": "e4737205627d30845eb89e4964f57fa3c66e3c00"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::hcfg/Light.json": {
+			"id": "Builtin::FileUpdated::hcfg/Light.json",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "hcfg/Light.json",
+				"prefix": "",
+				"root": "",
+				"dir": "hcfg",
+				"base": "Light.json",
+				"ext": ".json",
+				"name": "Light",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.329Z",
+				"hash": "dc40babedd1b607aa3ddaad2337621c91fd7093e"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::hcfg/Regular.json": {
+			"id": "Builtin::FileUpdated::hcfg/Regular.json",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "hcfg/Regular.json",
+				"prefix": "",
+				"root": "",
+				"dir": "hcfg",
+				"base": "Regular.json",
+				"ext": ".json",
+				"name": "Regular",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.329Z",
+				"hash": "a19edb8d364638191334b388ae54a25184aea24c"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::hcfg/SemiBold.json": {
+			"id": "Builtin::FileUpdated::hcfg/SemiBold.json",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "hcfg/SemiBold.json",
+				"prefix": "",
+				"root": "",
+				"dir": "hcfg",
+				"base": "SemiBold.json",
+				"ext": ".json",
+				"name": "SemiBold",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.327Z",
+				"hash": "0283d1f3fb518458bc3ade59cb90de8013aa3571"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::hcfg/Bold.json": {
+			"id": "Builtin::FileUpdated::hcfg/Bold.json",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": "hcfg/Bold.json",
+				"prefix": "",
+				"root": "",
+				"dir": "hcfg",
+				"base": "Bold.json",
+				"ext": ".json",
+				"name": "Bold",
+				"present": true,
+				"updated": "2025-05-20T05:53:50.329Z",
+				"hash": "95f7ed11393f3463e39a0d545046470219ddec95"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::Oracle::hinting-jobs": {
+			"id": "Builtin::Oracle::hinting-jobs",
+			"volatile": false,
+			"result": 10,
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::DirExists::.build/.hc": {
+			"id": "Builtin::DirExists::.build/.hc",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/.hc",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": ".hc",
+				"ext": "",
+				"name": ".hc",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.262Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::DirExists::.build/pass1-hinted": {
+			"id": "Builtin::DirExists::.build/pass1-hinted",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/pass1-hinted",
+				"prefix": "",
+				"root": "",
+				"dir": ".build",
+				"base": "pass1-hinted",
+				"ext": "",
+				"name": "pass1-hinted",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.275Z",
+				"hash": "?"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansTC-ExtraLight.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-ExtraLight.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansTC-ExtraLight.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansTC-ExtraLight.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansTC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.856Z",
+				"hash": "39e49c4f64a3352ee48957122b5326ef60b4c402"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansSC-ExtraLight.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-ExtraLight.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansSC-ExtraLight.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansSC-ExtraLight.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansSC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.704Z",
+				"hash": "1f73db9fadb442e699e028f5bcef853b1b787c7b"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansHC-ExtraLight.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-ExtraLight.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansHC-ExtraLight.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansHC-ExtraLight.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansHC-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:09.013Z",
+				"hash": "18fc51fca3b046b25e74c1442b2722d03ba0b249"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSans-ExtraLight.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-ExtraLight.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSans-ExtraLight.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSans-ExtraLight.otf",
+				"ext": ".otf",
+				"name": "SourceHanSans-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.403Z",
+				"hash": "feb532c6d40292688f80ad2cdd997ffe5332d55b"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansK-ExtraLight.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-ExtraLight.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansK-ExtraLight.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansK-ExtraLight.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansK-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.549Z",
+				"hash": "ba09db24f3190f558fb5b8f14bb1860c9940ced4"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansSC-Light.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-Light.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansSC-Light.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansSC-Light.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansSC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.739Z",
+				"hash": "2cd4341a930c20418eab9c0c8cff1b43c88b2c92"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansTC-Light.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-Light.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansTC-Light.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansTC-Light.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansTC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.891Z",
+				"hash": "f33cef567ecd93e1821552a11fd8100043d21e85"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansHC-Light.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-Light.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansHC-Light.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansHC-Light.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansHC-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:09.057Z",
+				"hash": "e6a5cc52c26f050eb0b985c0e191ca1b5360795a"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSans-Light.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-Light.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSans-Light.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSans-Light.otf",
+				"ext": ".otf",
+				"name": "SourceHanSans-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.387Z",
+				"hash": "305deb27c002da39dcd8674f55028ddf77363f1a"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansK-Light.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Light.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansK-Light.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansK-Light.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansK-Light",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.550Z",
+				"hash": "668a7e994b7037c37c56a85e7a1404b2dd7f7348"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansSC-Medium.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-Medium.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansSC-Medium.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansSC-Medium.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansSC-Medium",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.719Z",
+				"hash": "b18233d265d078e8b8b42499d9e6bb8cf4b6b990"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansTC-Medium.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-Medium.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansTC-Medium.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansTC-Medium.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansTC-Medium",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.890Z",
+				"hash": "ecf984bdb8ed49b8b816814fac70ee6cea3dccc6"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansHC-Medium.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-Medium.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansHC-Medium.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansHC-Medium.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansHC-Medium",
+				"present": true,
+				"updated": "2025-05-27T15:14:09.062Z",
+				"hash": "b9ca2128850fa4d432f5113d8b0497f553ed85ae"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSans-Medium.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-Medium.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSans-Medium.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSans-Medium.otf",
+				"ext": ".otf",
+				"name": "SourceHanSans-Medium",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.392Z",
+				"hash": "431216f149a0c167557d18d2e54de56d8d37e9a1"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansK-Medium.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Medium.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansK-Medium.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansK-Medium.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansK-Medium",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.562Z",
+				"hash": "654ac78dfd5e7e25b07c37ba16398c4a72940bbc"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansSC-Regular.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-Regular.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansSC-Regular.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansSC-Regular.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansSC-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.749Z",
+				"hash": "8f13c7ef34f47f20386d9eeb60f638a8111574bb"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansTC-Regular.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-Regular.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansTC-Regular.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansTC-Regular.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansTC-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.912Z",
+				"hash": "adfcaf906869f4fcd15f8e9109772b227e512c49"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansHC-Regular.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-Regular.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansHC-Regular.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansHC-Regular.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansHC-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:14:09.081Z",
+				"hash": "38f9c414ad0799444c9eeaf79962ea090b4877d6"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSans-Regular.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-Regular.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSans-Regular.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSans-Regular.otf",
+				"ext": ".otf",
+				"name": "SourceHanSans-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.411Z",
+				"hash": "e34d737fc33d06c418e7ac43c5677a4637ad82c0"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansK-Regular.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Regular.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansK-Regular.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansK-Regular.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansK-Regular",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.579Z",
+				"hash": "5542a22e7891401d5de055cd78b4bc8c6488a4df"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansSC-Bold.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansSC-Bold.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansSC-Bold.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansSC-Bold.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansSC-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.754Z",
+				"hash": "b569faaa3059dcef84ec9ba21ee838cd931e43c0"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansTC-Bold.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansTC-Bold.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansTC-Bold.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansTC-Bold.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansTC-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.925Z",
+				"hash": "34d9da2464b26add05edd4c6edb9782925a005b7"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansHC-Bold.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansHC-Bold.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansHC-Bold.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansHC-Bold.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansHC-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:14:09.090Z",
+				"hash": "2f9f976f810c16caaab2a8c1bd072ff30e6147d7"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSans-Bold.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSans-Bold.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSans-Bold.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSans-Bold.otf",
+				"ext": ".otf",
+				"name": "SourceHanSans-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.421Z",
+				"hash": "c8b50a6a4932ca2fe2313fb05dfa9a1a446b6004"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::FileUpdated::.build/shs/SourceHanSansK-Bold.otf": {
+			"id": "Builtin::FileUpdated::.build/shs/SourceHanSansK-Bold.otf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/shs/SourceHanSansK-Bold.otf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/shs",
+				"base": "SourceHanSansK-Bold.otf",
+				"ext": ".otf",
+				"name": "SourceHanSansK-Bold",
+				"present": true,
+				"updated": "2025-05-27T15:14:08.590Z",
+				"hash": "3b4e076971bbb40c6a643e8c11bb36fca52654c4"
+			},
+			"dependencies": [],
+			"revision": 5
+		},
+		"Builtin::File::.build/fe-misc0/Gothic-J-ExtraLight.ttf": {
+			"id": "Builtin::File::.build/fe-misc0/Gothic-J-ExtraLight.ttf",
+			"volatile": false,
+			"result": {
+				"$": [],
+				"full": ".build/fe-misc0/Gothic-J-ExtraLight.ttf",
+				"prefix": "",
+				"root": "",
+				"dir": ".build/fe-misc0",
+				"base": "Gothic-J-ExtraLight.ttf",
+				"ext": ".ttf",
+				"name": "Gothic-J-ExtraLight",
+				"present": true,
+				"updated": "2025-05-27T15:18:05.649Z",
+				"hash": "299f4f5bf477bfdcf26dc3813cc4d9289a7cb995"
+			},
+			"dependencies": [
+				[
+					{
+						"id": "Builtin::Oracle::dep::config",
+						"args": []
+					},
+					{
+						"id": "Builtin::Task::dep::scripts",
+						"args": []
+					}
+				],
+				[
+					{
+						"id": "Builtin::DirExists::.build/fe-misc0",
+						"args": [
+							".build/fe-misc0"
+						]
+					},
+					{
+						"id": "Builtin::File::.build/non-kanji0/J-ExtraLight.ttf",
+						"args": [
+							"J",
+							"ExtraLight"
+						]
+					},
+					{
+						"id": "Builtin::File::.build/latin-Inter/Inter-ExtraLight.ttf",
+						"args": [
+							"Inter",
+							"ExtraLight"
+						]
+					}
+				]
+			],
+			"revision": 7
+		}
+	}
+}

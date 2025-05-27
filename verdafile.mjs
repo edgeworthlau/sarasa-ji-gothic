@@ -13,7 +13,7 @@ const { run, node, rm, cd, mv, fail } = build.actions;
 const { FileList } = build.predefinedFuncs;
 
 // Directories
-const PREFIX = `Sarasa`;
+const PREFIX = `SarasaJi`;
 const BUILD = `.build`;
 const OUT = `out`;
 const SOURCES = `sources`;
