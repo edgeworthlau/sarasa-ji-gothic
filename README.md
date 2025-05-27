@@ -57,22 +57,28 @@ Sarasa Ji Gothic 仅提供 `ttf` 格式的两种风格的非等宽字型，如�
 
 ### 具体操作
 
-将项目下载到本地，从终端进入项目文件夹运行。
+将项目下载到本地，从终端进入项目文件夹。
+
+运行如下命令，安装项目所需的依赖包。
 
 ```bash
 npm install
 ```
 
-生成 TTF 文件, 将会导出到 `out/ttf` 目录。
+运行如下命令，可生成 `ttf` 格式字体文件, 生成文件位于 `out/TTF` 和 `out/TTF-Unhinted` 目录。
 
 ```bash
 npm run build ttf
 ```
 
-生成 TTC 文件，将会导出到 `out/ttc` 目录。
+运行如下命令，可生成 `ttc` 格式字体文件，生成文件位于 `out/TTC` 目录。请注意，打包 TTC 时将会占用 *非常高* 的内存，因为包含了大量的子家族字符集的组合。
 
 ```bash
 npm run build ttc
 ```
 
-请注意，打包 TTC 时将会占用 *非常高* 的内存，因为包含了大量的子家族字符集的组合。
+运行如下命令，可生成 `woff2` 格式字体文件，生成文件位于 `out/WOFF2` 目录，每个字体拥有独立目录，其中有该字体分包生成的所有 `woff2` 格式字体文件和 `result.css` 字体调用文件。
+
+```bash
+npm run build font-split
+```
