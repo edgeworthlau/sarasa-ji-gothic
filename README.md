@@ -10,7 +10,7 @@ Sarasa Ji Gothic 是一款免费的开源字体，基于 [Sarasa Gothic](https:/
 
 Sarasa Gothic 是一个近乎完美的解决方法，除了大写字母 `G` ！Sarasa Gothic 在构建时启用了 Inter 的 `cv10` 可变字符选项，这使得其大写字母 `G` 并非像 San Francisco 那样圆润，这也是本项目诞生的原因。
 
-是的，Sarasa Ji Gothic 仅在大写字母 `G` 的字形上有所不同。为了得到一个更接近与 San Francisco 的视觉体验，我重新构建了 Sarasa Gothic ，并根据新字体的特点“更加圆润的大写字母 `G`”，取谐音将其命名为**更纱圆纪黑体**，英文命名为 Sarasa Ji Gothic，并依据原协议进行开源。
+是的，与原项目相比，Sarasa Ji Gothic 仅在大写字母 `G` 的字形上有所不同。为了得到一个更接近与 San Francisco 的视觉体验，我重新构建了 Sarasa Gothic ，并根据新字体的特点“更加圆润的大写字母 `G`”，取谐音将其命名为**更纱圆纪黑体**，英文命名为 Sarasa Ji Gothic，并依据原协议进行开源。
 
 ![intro](intro.png)
 
@@ -18,7 +18,7 @@ Sarasa Gothic 是一个近乎完美的解决方法，除了大写字母 `G` ！S
 
 ## 如何选择版本？
 
-进入[最新发布版本](https://github.com/be5invis/Sarasa-Gothic/releases)页面，根据需要下载对应系列的字体包，下载后解压并安装。
+进入[最新发布版本](https://github.com/edgeworthlau/sarasa-ji-gothic/releases/latest)页面，根据需要下载对应系列的字体包，下载后解压并安装。
 
 Sarasa Ji Gothic 仅提供 `ttf` 格式的两种风格的非等宽字型，如需 `ttc` 格式请自行构建，如需等宽字型请直接使用原项目（[Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic/)）。
 
