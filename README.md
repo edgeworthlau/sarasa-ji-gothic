@@ -79,5 +79,12 @@ npm run build ttc
 运行如下命令，可生成 `woff2` 格式字体文件，生成文件位于 `out/WOFF2` 目录，每个字体拥有独立目录，其中有该字体分包生成的所有 `woff2` 格式字体文件和 `result.css` 字体调用文件。
 
 ```bash
-npm run build font-split
+npm run font-split
 ```
+
+运行如下命令，可生成所有格式字体文件的 `zip` 格式压缩包，便于分发。
+
+```bash
+npm run zip 
+```
+
