@@ -45,7 +45,6 @@ Sarasa Ji Gothic 仅提供 `ttf` 格式的两种风格的非等宽字型，如�
 根据使用场景和格式需求来选择字体。
 
 - `TTF` : 已进行微调字形的 `ttf` 格式版本；适用于本地设备使用。
-
 - `WOFF2` : 基于已进行微调字形，使用 [cn-font-split](https://github.com/KonghaYao/cn-font-split) 进行分包的 `woff2` 格式版本；适用于网页开发使用。
 - `TTF-Unhinted` : 未进行微调字形的 `ttf` 格式版本，使用 Inter 和 Source Han Sans 原版的字形；文件大小较小，但可能在某些字的结构上，显示清晰度较低，特别是小字号显示效果不佳；适用于需要更小的字体文件，且不在意字体的显示清晰效果的极端条件使用，一般用户不建议选择。
 
